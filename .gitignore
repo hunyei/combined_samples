@@ -1,0 +1,23 @@
+# Ignore raw and intermediate data
+*.h5ad
+*.loom
+*.bam
+*.csv
+*.tsv
+*.npz
+*.mtx
+
+# Ignore entire folders
+data/
+results/
+.ipynb_checkpoints/
+
+# Ignore figures
+*.pdf
+*.png
+*.svg
+
+# Ignore cache/temp
+__pycache__/
+*.pyc
+.DS_Store
